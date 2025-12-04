@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: proxy-m3u8
-    env: go
-    plan: free
-    buildCommand: go build -o app .
-    startCommand: ./app
